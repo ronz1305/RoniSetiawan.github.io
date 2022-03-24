@@ -3,6 +3,7 @@ body {
     font-size: 14px;
 }
 
+
 /* navbar */
 
 .nav-link {
@@ -37,13 +38,15 @@ body {
 
 /* profile */
 
+
+
 .card {
     margin-top: -70px;
 }
 
 .profileImage {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
@@ -53,10 +56,26 @@ ul.profile {
 
 .profile li {
     list-style-type: none;
-    height: 35px;
+    height: auto;
+    
 }
 
 .titleName {
+    width: 100%;
     font-size: 24px;
     font-weight: bold;
+}
+
+.about {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contactMeList li{
+    list-style-type: none;
+}
+
+.contactList li{
+    list-style-type: none;
+    display: inline-block;
 }
